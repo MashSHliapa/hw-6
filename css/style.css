@@ -55,13 +55,56 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .opinion-column {
   width: 370px;
   height: 180px;
   background-color: #E2E2E2;
 }
+
 .opinion-text {
   padding: 38px 20px;
   text-align: center;
+}
+
+.managers-info {
+  margin: 66px 0 64px 0;
+}
+
+/*.managers-info-container {}*/
+
+.managers-info-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.managers-info-column {
+  width: 370px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*.managers-info-cover-pnoto {}*/
+
+/*.managers-info-data {}*/
+
+.managers-info-name {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+  width: 269px;
+  height: 54px;
+  padding: 13px 0;
+  margin-bottom: 15px;
+}
+
+.managers-info-function {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21.13px;
+  font-weight: bold;
+  width: 269px;
 }
 
