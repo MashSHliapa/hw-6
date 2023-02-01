@@ -44,3 +44,24 @@ body {
   font-size: 18px;
   line-height: 21px;
 }
+.opinion {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21.13px;
+}
+/*.opinion-container {}*/
+
+.opinion-row {
+  display: flex;
+  justify-content: space-between;
+}
+.opinion-column {
+  width: 370px;
+  height: 180px;
+  background-color: #E2E2E2;
+}
+.opinion-text {
+  padding: 38px 20px;
+  text-align: center;
+}
+
