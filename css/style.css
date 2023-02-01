@@ -27,7 +27,7 @@ body {
   height: 150px;
   font-size: 36px;
   text-transform: uppercase;
-  color: #000000;
+  font-weight: bold;
   line-height: 42.26px;
   padding: 57px 0;
 }
@@ -49,6 +49,7 @@ body {
   font-size: 18px;
   line-height: 21.13px;
 }
+
 /*.opinion-container {}*/
 
 .opinion-row {
@@ -60,6 +61,7 @@ body {
   width: 370px;
   height: 180px;
   background-color: #E2E2E2;
+  border-radius: 10px;
 }
 
 .opinion-text {
@@ -106,5 +108,16 @@ body {
   line-height: 21.13px;
   font-weight: bold;
   width: 269px;
+}
+
+.triangle-down {
+  width: 0px;
+	height: 0px;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid #E2E2E2;
+  position: relative;
+  left: 60px;
+  bottom: 2px;
 }
 
